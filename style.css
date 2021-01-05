@@ -1,0 +1,493 @@
+body{
+    margin: 0;
+    padding:0;
+}
+/* =========================================Top Header====================================================== */
+#topHeader{
+    background-color: #3d3d3d;
+    color: white;
+}
+#topHeader .fa-phone-alt{
+    color: #17a599;
+}
+#icons i{
+    margin-right: 5px;
+}
+/* ============================================Nav Bar=================================================== */
+.nav-link:hover{
+    border: 1px solid gray;
+    color: #17a599 !important;
+}
+/* ============================================Nav Bar=================================================== */
+header{
+    /* background-image: url(banner.png); */
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: .8em;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+header img{
+  min-height: 420px;
+  filter: grayscale(.7);
+}
+header #header{
+    width: 55%;
+}
+header button{
+    background-color: #17a599 !important;
+    
+}
+#circle{
+    width: 15px;
+    height: 15px;
+    background: white;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    top: -10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+header hr{
+    background-color: white;
+    display: inline-block;
+    width: 40%;
+    opacity: 1;
+    height: 2px !important;
+    
+}
+
+/* ============================================Nav Bar=================================================== */
+#welcome #welcomeDiv1{
+    padding: 5% 1% 5% 10%;
+    font-size: 13px;
+    /* padding-right: 15px; */
+}
+#welcome #welcomeDiv1 div hr{
+    width: 262px;
+    margin-right: 25px;
+    opacity: 1;
+}
+
+#welcome #welcomeDiv2{
+   background-color: #17a599;
+}
+#welcome #welcomeDiv2 div div{
+    margin: 2%;
+    padding: 7%;
+    color: white;
+    font-size: 50px;
+    border: 1px solid white;
+}
+
+/* ============================================ */
+#aboutUs{
+    background-color: #3d3d3d;
+}
+#aboutUsDiv1{
+    background-image: url(banner.png);
+    height: 100%;
+    text-align: center;
+    padding-top: 10%;
+    color: white;
+}
+#diffColor{
+    color: #17a599;
+}
+#aboutUsDiv1 hr{
+    background-color: white;
+    display: inline-block;
+    width: 20%;
+    opacity: 1;
+    height: 2px !important;
+    
+}
+
+
+#aboutUsDiv2{
+    color: white !important;
+    font-size: 12px;
+    padding: 5% 5% 5% 2%;
+}
+#aboutUsDiv2 button{
+    color: white;
+    padding: 0;
+}
+#aboutUsDiv2 div hr{
+    width: 262px;
+    margin-right: 25px;
+    opacity: 1;
+    
+}
+.inner-outline {
+    outline: 1px solid white;
+    outline-offset: -10px;
+}
+/* =====================Our News=============== */
+#hrOurNews{
+  width: 7%;
+  height: 3px;
+}
+
+/* ===============================TimeLine=============================================== */
+html, body {
+  background-color: white;
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+.cd-container {
+  width: 90%;
+  max-width: 1080px;
+  margin: 0 auto;
+  background: white;
+  padding: 0 10%;
+  border-radius: 2px;
+}
+
+.cd-container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* -------------------------------- 
+
+Main components 
+
+-------------------------------- */
+#cd-timeline {
+  position: relative;
+  padding: 2em 0;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+#cd-timeline::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 25px;
+  height: 100%;
+  width: 4px;
+  background: #17a599;
+}
+
+@media only screen and (min-width: 1170px) {
+  #cd-timeline {
+    margin-top: 3em;
+    margin-bottom: 3em;
+  }
+
+  #cd-timeline::before {
+    left: 50%;
+    margin-left: -2px;
+  }
+}
+.cd-timeline-block {
+  position: relative;
+  margin: 2em 0;
+}
+
+.cd-timeline-block:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.cd-timeline-block:first-child {
+  margin-top: 0;
+}
+
+.cd-timeline-block:last-child {
+  margin-bottom: 0;
+}
+
+@media only screen and (min-width: 1170px) {
+  .cd-timeline-block {
+    margin: 4em 0;
+  }
+
+  .cd-timeline-block:first-child {
+    margin-top: 0;
+  }
+
+  .cd-timeline-block:last-child {
+    margin-bottom: 0;
+  }
+}
+.cd-timeline-img {
+  position: absolute;
+  top: 8px;
+  left: 12px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px #17a599, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+}
+
+.cd-timeline-img {
+  background: #17a599;
+}
+
+@media only screen and (min-width: 1170px) {
+  .cd-timeline-img {
+    width: 30px;
+    height: 30px;
+    left: 50%;
+    margin-left: -15px;
+    margin-top: 15px;
+  }
+}
+.cd-timeline-content {
+  position: relative;
+  margin-left: 60px;
+  margin-right: 30px;
+  background: rgb(243, 243, 243);
+  border-radius: 2px;
+  padding: 1em;
+}
+.cd-timeline-content .timeline-content-info {
+  background: #2B343A;
+  padding: 5px 10px;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 12px;
+  box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.08);
+  border-radius: 2px;
+}
+.cd-timeline-content .timeline-content-info i {
+  margin-right: 5px;
+}
+.cd-timeline-content .timeline-content-info .timeline-content-info-title, .cd-timeline-content .timeline-content-info .timeline-content-info-date {
+  width: calc(50% - 2px);
+  display: inline-block;
+}
+@media (max-width: 500px) {
+  .cd-timeline-content .timeline-content-info .timeline-content-info-title, .cd-timeline-content .timeline-content-info .timeline-content-info-date {
+    display: block;
+    width: 100%;
+  }
+}
+.cd-timeline-content .content-skills {
+  font-size: 12px;
+  padding: 0;
+  margin-bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cd-timeline-content .content-skills li {
+  background: #40484D;
+  border-radius: 2px;
+  display: inline-block;
+  padding: 2px 10px;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 3px 2px;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.cd-timeline-content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.cd-timeline-content h2 {
+  color: black;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.cd-timeline-content p, .cd-timeline-content .cd-date {
+  color: black;
+  font-size: 13px;
+  font-size: 0.8125rem;
+}
+
+.cd-timeline-content .cd-date {
+  display: inline-block;
+}
+
+.cd-timeline-content p {
+  margin: 1em 0;
+  line-height: 1.6;
+}
+
+.cd-timeline-content::before {
+  content: "";
+  position: absolute;
+  top: 16px;
+  right: 100%;
+  height: 0;
+  width: 0;
+  border: 7px solid transparent;
+  border-right: 7px solid #333C42;
+}
+
+@media only screen and (min-width: 768px) {
+  .cd-timeline-content h2 {
+    font-size: 20px;
+    font-size: 1.25rem;
+  }
+
+  .cd-timeline-content p {
+    font-size: 16px;
+    font-size: 1rem;
+  }
+
+  .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
+    font-size: 14px;
+    font-size: 0.875rem;
+  }
+}
+@media only screen and (min-width: 1170px) {
+  .cd-timeline-content {
+    color: white;
+    margin-left: 0;
+    padding: 1.6em;
+    width: 36%;
+    margin: 0 5%;
+  }
+
+  .cd-timeline-content::before {
+    top: 24px;
+    left: 100%;
+    border-color: transparent;
+    border-left-color: #333C42;
+  }
+
+  .cd-timeline-content .cd-date {
+    position: absolute;
+    width: 100%;
+    left: 122%;
+    top: 6px;
+    font-size: 16px;
+    font-size: 1rem;
+  }
+
+  .cd-timeline-block:nth-child(even) .cd-timeline-content {
+    float: right;
+  }
+
+  .cd-timeline-block:nth-child(even) .cd-timeline-content::before {
+    top: 24px;
+    left: auto;
+    right: 100%;
+    border-color: transparent;
+    border-right-color: #333C42;
+  }
+
+  .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-read-more {
+    float: right;
+  }
+
+  .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-date {
+    left: auto;
+    right: 122%;
+    text-align: right;
+  }
+}
+
+/*# sourceMappingURL=file.css.map */
+/* ===============================================End Of TimeLine=========================================================== */
+
+/* =====================================Thanks A Lot===================================== */
+#thankALot{
+  background-color: #17a599;
+  color:#fff;
+}
+#thankALot #firstDiv hr{
+  width: 40%;
+  height: 2px;
+  color: #fff;
+  opacity: 1;
+}
+#thankALot h3{
+  padding: 2% 5%;
+}
+#thankALot p{
+  position: relative;
+    top: 4px;
+    
+}
+#thankALot #quote{
+    padding: 15px;
+    background-color:white;
+    border-radius: 50%;
+    color: #17a599;
+}
+#thankALot #secondDiv hr{
+  width: 10%;
+  height: 2px;
+  background-color: #fff;
+}
+
+
+
+/* =====================================ChooseUs===================================== */
+#ChooseUs #ChooseUsDiv1{
+  padding: 5% 1% 5% 10%;
+  font-size: 13px;
+  /* padding-right: 15px; */
+}
+#ChooseUs #ChooseUsDiv1 div hr{
+  width: 200px;
+  margin-right: 25px;
+  opacity: 1;
+}
+
+#ChooseUs #ChooseUsDiv2{
+  padding: 5% 1% 5% 3%;
+  font-size: 13px;
+  /* padding-right: 15px; */
+}
+#hrline{
+  width: 60px;
+  margin-right: 25px;
+  opacity: 1;
+}
+#ulitems{
+  width: 130%;
+}
+#ChooseUs #ChooseUsDiv2{
+ background-color: #2B343A;
+ color: white;
+}
+.hrlistline{
+  display: inline-block;
+    vertical-align: middle;
+    width: 18%;
+    opacity: 1;
+}
+#ChooseUs #ChooseUsDiv2 button{
+  color: white;
+ }
+
+/* =============================FOOTER====================== */
+footer{
+  background-color: #17a599;
+  color: white;
+  font-weight: bold;
+  padding: 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
